@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import Home from "../screens/Home";
 import About from "../screens/About";
-import Ghibli from "../screens/Ghibli";
+import About2 from "../screens/About2";
 
 const Stack = createNativeStackNavigator();
 
@@ -11,7 +11,7 @@ const StackRoutes = () => {
     <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="About" component={About} />
-        <Stack.Screen name="Ghibli" component={Ghibli} />
+        <Stack.Screen name="About2" component={About2} />
     </Stack.Navigator>
     );
 };
