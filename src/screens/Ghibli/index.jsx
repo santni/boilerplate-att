@@ -5,16 +5,18 @@ import styles from "./styles";
 import MyButton from '../../components/MyButton';
 import Title from '../../components/Title'
 
-export default function Home() {
+export default function Ghibli() {
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
       {/* <Text style={styles.title}>Home Screen</Text>  */}
-      <Title title="Home" />
-     <MyButton screen={'About'} name={'Go to Nically page'} />
-     <MyButton screen={'Ghibli'} name={'Go to Ghibli page'} />
+      <Title title="Ghibli" />
 
-      {/* <TouchableOpacity onPress={() => navigation.navigate("Ghibli")}>
+     <MyButton screen={'Home'} name={'Go to Home page'} />
+     <MyButton screen={'About'} name={'Go to Nically page'} />
+
+
+      {/* <TouchableOpacity onPress={() => navigation.navigate("About")}>
       <Text style={styles.text}>Go to Nicolly page</Text> 
       </TouchableOpacity> */}
     </View>
