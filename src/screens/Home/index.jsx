@@ -34,7 +34,7 @@ export default function Home() {
       </View>
 
       <MyButton screen={'About'} name={'Descubra qual o nosso filme favorito!'} />
-      <MyButton screen={'Ghibli'} name={'Descubra o nosso hobbie favorito!'} />
+      <MyButton screen={'About2'} name={'Descubra o nosso hobbie favorito!'} />
     </View>
     </ScrollView>
   );

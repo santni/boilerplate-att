@@ -7,7 +7,7 @@ const MyButton = ({screen, name}) => {
     const navigation = useNavigation();
   return (
     <View>
-      <TouchableOpacity onPress={() => navigation.navigate(screen)} style={styles.button}>
+      <TouchableOpacity onPress={() => navigation.navigate(screen)}>
         <Text >{name}</Text>
       </TouchableOpacity>
     </View>
